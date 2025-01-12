@@ -1,0 +1,64 @@
+@import url("./reset.css");
+
+:root {
+    --forest-dark-green: #2c6e49; /* Deep forest green */
+    --forest-light-green: #a7d8a2; /* Soft, light green leaves */
+    --bark-brown: #6a4e23; /* Bark-like brown */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--forest-light-green);
+    color: var(--bark-brown);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: var(--forest-dark-green);
+    color: white;
+    min-height: 5dvh;
+}
+
+.image-container {
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--bark-brown);
+    color: white;
+}
+
+.post-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    align-self: center;
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+
+.paragraph {
+    padding: 0.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5dvh;
+    background-color: var(--forest-dark-green);
+    color: white;
+}
